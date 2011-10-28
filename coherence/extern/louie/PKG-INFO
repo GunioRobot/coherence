@@ -11,11 +11,11 @@ Description: Louie provides Python programmers with a straightforward way to
         dispatch signals between objects in a wide variety of contexts. It is
         based on PyDispatcher_, which in turn was based on a highly-rated
         recipe_ in the Python Cookbook.
-        
+
         .. _PyDispatcher: http://pydispatcher.sf.net/
-        
+
         .. _recipe: http://aspn.activestate.com/ASPN/Cookbook/Python/Recipe/87056
-        
+
 Platform: UNKNOWN
 Classifier: Intended Audience :: Developers
 Classifier: License :: OSI Approved :: BSD License

@@ -138,7 +138,7 @@
 	  coherence/backends/gstreamer_renderer.py,
 	  docs/test-store-example.xml: inquire the ignore pattern first
 	  before reacting upon an inotify event and adding a new file
-	  
+
 	  closes #203
 
 2009-04-14 11:32  dev
@@ -166,14 +166,14 @@
 	* docs/man, docs/man/coherence.1,
 	  misc/Desktop-Applet/applet-coherence.1: man-pages for
 	  /usr/bin/coherence and /usr/bin/applet-coherence - thx cjsmo!
-	  
+
 	  The is a new docs/man folder for the coherence.1 file, maybe
 	  we'll have some time some more there.
-	  
+
 	  The applet-coherence.1 file is included in the
 	  misc/Desktop-Applet folder, doesn't make sense to install it
 	  without the applet itself.
-	  
+
 	  Closes #199
 
 2009-04-09 20:31  jmsizun
@@ -343,7 +343,7 @@
 	* ChangeLog, Coherence.egg-info/PKG-INFO, MANIFEST.in, NEWS,
 	  coherence/__init__.py, setup.py: New in this 0.6.2 - Rosenmontag
 	  - release
-	  
+
 	  * new MediaServer backends that allow access to
 	  * YouTube videos (http://youtube.com)
 	  * the MiroGuide for online videos (https://www.miroguide.com)
@@ -356,7 +356,7 @@
 	  (http://www.openembedded.org/),
 	  bringing Coherence to the BeagleBoard (http://beagleboard.org/)
 	  * and - as every time - the usual bugfixes and enhancements
-	  
+
 	  Kudos go especially to jmsizun for his work on the new backends!
 
 2009-02-23 19:54  dev
@@ -722,7 +722,7 @@
 	  coherence/extern/youtubedl, coherence/upnp/core/utils.py,
 	  setup.py: a modified version of [ticket:173 jmsizuns YouTube
 	  backend], only partial working atm
-	  
+
 	  needs a current version of
 	  [http://code.google.com/p/gdata-python-client Google Data APIs
 	  Python Client Library]
@@ -864,7 +864,7 @@
 
 	* coherence/extern/inotify.py: incorporating dialtones changes and
 	  tests - thx!
-	  
+
 	  Closes #180
 
 2009-01-13 15:33  dev

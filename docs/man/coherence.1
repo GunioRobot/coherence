@@ -1,6 +1,6 @@
 .TH "coherence" "1" "Thur Mar 19 2009" "Frank Scholz" "Python UPnP Framwork"
 .SH "NAME"
-.LP 
+.LP
 Coherence \- Is a Python UPnP framework which enabling your application to
 participate in digital living networks, at the moment primarily the
 UPnP universe.
@@ -15,53 +15,53 @@ of:
   * server and client for HTTP/SOAP requests, and
   * server and client for Event Subscription and Notification (GENA).
 .SH "SYNTAX"
-.LP 
+.LP
 coherence \-\-<\fIOPTION\fP> : <\fISTORE_TYPE\fP>, url:<\fIURL\fP>, key:<\fIKEY\fP>
 .SH "OPTIONS"
-.LP 
-.TP 
+.LP
+.TP
 \fB\-d\fR \fB\-\-daemon\fR daemonize
-.TP 
+.TP
 \fB\-v\fR \fB\-\-version\fR print version
-.TP 
+.TP
 \fB\-c\fR \fB\-\-configfile=\fR<\fIPATH\fP> Path to config file
-.TP 
+.TP
 \fB  \fR \fB\-\-noconfig\fR ignore any config file found
-.TP 
+.TP
 \fB\-o\fR \fB\-\-option=\fR activate option
-.TP 
+.TP
 \fB\-l\fR \fB\-\-logfile=<\fIPATH\fP> Path to log file.
-.TP 
+.TP
 \fB  \fR \fB\-\-help  Displays coherence options.
 .SH "AVAILABLE STORES"
 BetterLight, AmpacheStore, FlickrStore, MiroStore, ElisaPlayer,
-.br 
+.br
 ElisaMediaStore, Gallery2Store, DVBDStore, FSStore,
-.br 
+.br
 BuzztardPlayer, BuzztardStore, GStreamerPlayer, SimpleLight,
-.br 
+.br
 ITVStore, SWR3Store, TrackerStore, LolcatsStore, BBCStore,
-.br 
-MediaStore, AppleTrailerStore, LastFMStore, AxisCamStore, 
-.br 
+.br
+MediaStore, AppleTrailerStore, LastFMStore, AxisCamStore,
+.br
 YouTubeStore, TEDStore, IRadioStore
 .SH "FILES"
-.LP 
+.LP
 \fI/home/name/.coherence\fP
 .SH "ENVIRONMENT VARIABLES"
-.LP 
-.TP 
+.LP
+.TP
 \fBCOHERENCE_DEBUG=<\fISTORE\fP>\fP
 Supplies debug information pertaining to the named store.
 .SH "EXAMPLES"
-.LP 
+.LP
 coherence \-\-plugin=backend:FSStore,name:MyCoherence
 
 .SH "AUTHORS"
-.LP 
+.LP
 Coherence was written by Frank Scholz <coherence@beebits.net>.
 This man page was created by Charlie Smotherman <cjsmo@cableone.net> for Frank Scholz and the Debian Project.
 .SH "SEE ALSO"
-.LP 
+.LP
 http://coherence.beebits.net/
 

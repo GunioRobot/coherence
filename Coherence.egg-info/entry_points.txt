@@ -34,4 +34,4 @@
 
         [coherence.plugins.backend.dimmable_light]
         BetterLight = coherence.backends.light:BetterLight
-    
+

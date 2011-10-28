@@ -57,12 +57,12 @@ stop() {
 restart() {
 	$0 stop
 	$0 start
-}	
+}
 
 reload() {
 	trap "" SIGHUP
 	killall -HUP $PROGNAME
-}	
+}
 
 case "$1" in
 start)
@@ -83,7 +83,7 @@ condrestart)
 	fi
 	;;
 status)
-	status $PROGNAME 
+	status $PROGNAME
 	;;
 *)
 	INITNAME=`basename $0`
